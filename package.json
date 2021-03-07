@@ -1,0 +1,24 @@
+{
+  "name": "web-scrapper-vanilla",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "chromedriver": "^89.0.0",
+    "selenium-webdriver": "^4.0.0-beta.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddharth-bhatnagar/web-scrapper-vanilla.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siddharth-bhatnagar/web-scrapper-vanilla.js/issues"
+  },
+  "homepage": "https://github.com/siddharth-bhatnagar/web-scrapper-vanilla.js#readme"
+}
