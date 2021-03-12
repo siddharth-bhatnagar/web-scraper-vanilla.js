@@ -1,34 +1,60 @@
-require("chromedriver"); // to access chrome via node.js
+require("chromedriver");    // chromedriver helps selenium in finding local installation of chrome and opening it.
 
-const wd = require("selenium-webdriver"); // selenium web driver is a browser automation library.
-const browser = new wd.Builder().forBrowser("chrome").build(); // creating new instance of the browser, initializing it and opening it in OS.
+const wd = require("selenium-webdriver");  // selenium is a web automation library which is used to automate browser tasks.
+const browser = new wd.Builder().forBrowser("chrome").build();   // Initializing, specifying browser and opening/creating its instance in the OS.
 
-const matchId = 30880; // match ID of the current match whose details are to be scraped from web.
-let innings = 1;
-let BatsmenColumns = ["playerName", "out", "runs", "ballsPlayed", "fours", "sixes", "strikeRate"];
-let inningsOneBatsmen = [];
+const matchID = 30880;
+const innings = 1;
 
-async function main() {   // selenium methods are asynchronous, so we have to wait for execution of statements to be finished.
-    await browser.get(`https://cricbuzz.com/live-cricket-scores/${matchId}`); // wait till the webpage opens in chrome.
-    await browser.wait(wd.until.elementLocated(wd.By.css(".cb-nav-bar a"))); // wait till this element loads completely.
+// Keys
+let batsmenKeys = ["playerName", "out", "runs", "ballsPlayed", "fours", "sixes", "strikeRate"];
+let bowlerKeys = ["playerName","overs", "maiden", "runs", "wickets", "noBalls", "whiteBalls", "Economy"];
 
-    let buttons = await browser.findElements(wd.By.css(".cb-nav-bar a")); // 
+let batsmenStatistics = [];
+let bowlerStatistics = [];
+
+// Selenium methods are asynchronous, to make them synchronous, we use the following syntax. 
+async function main() {
+    await browser.get(`https://cricbuzz.com/live-cricket-scores/${matchID}`); // opens the website in browser
+    await browser.wait(wd.until.elementLocated(wd.By.css(".cb-nav-bar a"))); // waits until this particular component/element is loaded.
+
+    let buttons = await browser.findElements(wd.By.css(".cb-nav-bar a")); // returns an array of anchor tags 
     await buttons[1].click();
-    await browser.wait(wd.until.elementLocated(wd.By.css(`#innings_${innings} .cb-col.cb-col-100.cb-ltst-wgt-hdr`)));
-    let tables = await browser.findElements(wd.By.css(`#innings_${innings} .cb-col.cb-col-100.cb-ltst-wgt-hdr`));
-    let inningsOneBatsmenRows = await tables[0].findElements(wd.By.css(".cb-col.cb-col-100.cb-scrd-itms"));
 
-    for (let i = 0; i < (inningsOneBatsmenRows.length - 3); i++) {
-        let columns = await inningsOneBatsmenRows[i].findElements(wd.By.css("div"));
-        let data = {};
-        for (j in columns) {
-            if (j != 1) {
-                data[BatsmenColumns[j]] = await columns[j].getAttribute("innerText");
+    await browser.wait(wd.until.elementLocated(wd.By.css(`#innings_${innings} .cb-col.cb-col-100.cb-ltst-wgt-hdr`))); // wait till tables are loaded
+    let tables = await browser.findElements(wd.By.css(`#innings_${innings} .cb-col.cb-col-100.cb-ltst-wgt-hdr`)); // returns an array of these tables
+    
+    // Batsmen
+    let batsmenTableRows = await tables[0].findElements(wd.By.css(".cb-col.cb-col-100.cb-scrd-itms"));
+
+    for(let i = 0; i < (batsmenTableRows.length - 3); i++) {
+        let batsmenTableColumns = await batsmenTableRows[i].findElements(wd.By.css("div"));
+        let dataObject = {};
+        for(j in batsmenTableColumns) {
+            if(j!=1){
+                dataObject[batsmenKeys[j]] = await batsmenTableColumns[j].getAttribute("innerText");
             }
         }
-        inningsOneBatsmen.push(data);
+        batsmenStatistics.push(dataObject);
     }
-    console.log(inningsOneBatsmen);
+
+    // Bowlers
+    let bowlerTableRows = await tables[1].findElements(wd.By.css(".cb-col.cb-col-100.cb-scrd-itms"));
+   
+    for(let i=0;i<bowlerTableRows.length;i++) {
+        let bowlerTableColumns = await bowlerTableRows[2].findElements(wd.By.css("div"));
+        let data = {};
+        for(j in bowlerTableColumns) {
+            data[bowlerKeys[j]] = await bowlerTableColumns[j].getAttribute("innerText");
+        }
+        bowlerStatistics.push(data);
+    }
+
+    console.log(batsmenStatistics);
+    console.log("--------------------------------------");
+    console.log(bowlerStatistics);
+
 }
 
 main();
+  
