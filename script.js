@@ -14,6 +14,7 @@ let bowlerKeys = ["playerName", "overs", "maiden", "runs", "wickets", "noBalls",
 let batsmenStatistics = [];
 let bowlerStatistics = [];
 
+let batsmanCareer = [];
 // Selenium methods are asynchronous, to make them synchronous, we use the following syntax. 
 async function main() {
     await browser.get(`https://cricbuzz.com/live-cricket-scores/${matchID}`); // opens the website in browser
@@ -45,12 +46,14 @@ async function main() {
     let bowlerTableRows = await tables[1].findElements(wd.By.css(".cb-col.cb-col-100.cb-scrd-itms"));
 
     for (let i = 0; i < bowlerTableRows.length; i++) {
-        let bowlerTableColumns = await bowlerTableRows[2].findElements(wd.By.css("div"));
-        let data = {};
-        for (j in bowlerTableColumns) {
-            data[bowlerKeys[j]] = await bowlerTableColumns[j].getAttribute("innerText");
+        let bowlerTableColumns = await bowlerTableRows[i].findElements(wd.By.css("div"));
+        if (bowlerTableColumns.length == 8) {
+            let data = {};
+            for (j in bowlerTableColumns) {
+                data[bowlerKeys[j]] = await bowlerTableColumns[j].getAttribute("innerText");
+            }
+            bowlerStatistics.push(data);
         }
-        bowlerStatistics.push(data);
     }
 
     console.log(batsmenStatistics);
@@ -61,17 +64,14 @@ async function main() {
     // Current Innings Batsmen Career Statistics 
 
     // let batsmenURL = [];
-    // for(let i = 0; i < (batsmenTableRows.length - 3); i++) {
+    // for (let i = 0; i < batsmenTableRows.length - 3; i++) {
     //     let url = await batsmenTableRows[i].findElement(wd.By.css("div a")).getAttribute("href");
     //     batsmenURL.push(url);
     // }
 
-    // for(i in batsmenURL) {
+    // for (i in batsmenURL) {
     //     await batsmenURL[i].click();
     //     await browser.wait(wd.until.elementLocated(wd.By.css("cb-hm-rght cb-player-bio")));
-
-
-
     // }
 }
 
