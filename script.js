@@ -1,7 +1,8 @@
 require("chromedriver");    // chromedriver helps selenium in finding local installation of chrome and opening it.
 
 const wd = require("selenium-webdriver");  // selenium is a web automation library which is used to automate browser tasks.
-const browser = new wd.Builder().forBrowser("chrome").build();   // Initializing, specifying browser and opening/creating its instance in the OS.
+const chrome = require("selenium-webdriver/chrome");
+const browser = new wd.Builder().forBrowser("chrome").setChromeOptions(new chrome.Options().headless()).build();   // Initializing, specifying browser and opening/creating its instance in the OS.
 
 const matchID = 30880;
 const innings = 1;
