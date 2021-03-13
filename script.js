@@ -9,7 +9,7 @@ const innings = 1;
 
 // Keys
 let batsmenKeys = ["playerName", "out", "runs", "ballsPlayed", "fours", "sixes", "strikeRate"];
-let bowlerKeys = ["playerName","overs", "maiden", "runs", "wickets", "noBalls", "whiteBalls", "Economy"];
+let bowlerKeys = ["playerName", "overs", "maiden", "runs", "wickets", "noBalls", "whiteBalls", "Economy"];
 
 let batsmenStatistics = [];
 let bowlerStatistics = [];
@@ -24,28 +24,30 @@ async function main() {
 
     await browser.wait(wd.until.elementLocated(wd.By.css(`#innings_${innings} .cb-col.cb-col-100.cb-ltst-wgt-hdr`))); // wait till tables are loaded
     let tables = await browser.findElements(wd.By.css(`#innings_${innings} .cb-col.cb-col-100.cb-ltst-wgt-hdr`)); // returns an array of these tables
-    
+
     // Batsmen
     let batsmenTableRows = await tables[0].findElements(wd.By.css(".cb-col.cb-col-100.cb-scrd-itms"));
 
-    for(let i = 0; i < (batsmenTableRows.length - 3); i++) {
+    for (let i = 0; i < batsmenTableRows.length; i++) {
         let batsmenTableColumns = await batsmenTableRows[i].findElements(wd.By.css("div"));
-        let dataObject = {};
-        for(j in batsmenTableColumns) {
-            if(j!=1){
-                dataObject[batsmenKeys[j]] = await batsmenTableColumns[j].getAttribute("innerText");
+        if (batsmenTableColumns.length == 7) {
+            let dataObject = {};
+            for (j in batsmenTableColumns) {
+                if (j != 1) {
+                    dataObject[batsmenKeys[j]] = await batsmenTableColumns[j].getAttribute("innerText");
+                }
             }
+            batsmenStatistics.push(dataObject);
         }
-        batsmenStatistics.push(dataObject);
     }
 
     // Bowlers
     let bowlerTableRows = await tables[1].findElements(wd.By.css(".cb-col.cb-col-100.cb-scrd-itms"));
-   
-    for(let i=0;i<bowlerTableRows.length;i++) {
+
+    for (let i = 0; i < bowlerTableRows.length; i++) {
         let bowlerTableColumns = await bowlerTableRows[2].findElements(wd.By.css("div"));
         let data = {};
-        for(j in bowlerTableColumns) {
+        for (j in bowlerTableColumns) {
             data[bowlerKeys[j]] = await bowlerTableColumns[j].getAttribute("innerText");
         }
         bowlerStatistics.push(data);
@@ -55,7 +57,23 @@ async function main() {
     console.log("--------------------------------------");
     console.log(bowlerStatistics);
 
+
+    // Current Innings Batsmen Career Statistics 
+
+    // let batsmenURL = [];
+    // for(let i = 0; i < (batsmenTableRows.length - 3); i++) {
+    //     let url = await batsmenTableRows[i].findElement(wd.By.css("div a")).getAttribute("href");
+    //     batsmenURL.push(url);
+    // }
+
+    // for(i in batsmenURL) {
+    //     await batsmenURL[i].click();
+    //     await browser.wait(wd.until.elementLocated(wd.By.css("cb-hm-rght cb-player-bio")));
+
+
+
+    // }
 }
 
 main();
-  
+
