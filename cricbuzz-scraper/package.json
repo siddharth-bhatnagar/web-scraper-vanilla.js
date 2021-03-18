@@ -5,6 +5,7 @@
   "main": "script.js",
   "dependencies": {
     "chromedriver": "^89.0.0",
+    "fs": "0.0.1-security",
     "selenium-webdriver": "^4.0.0-beta.1"
   },
   "devDependencies": {},
