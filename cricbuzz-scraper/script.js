@@ -59,6 +59,8 @@ async function main() {
     console.log(batsmenStatistics);
     console.log("--------------------------------------");
     console.log(bowlerStatistics);
+
+    browser.close();
 }
 
 main();
