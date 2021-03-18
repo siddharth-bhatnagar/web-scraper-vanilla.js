@@ -1,0 +1,804 @@
+[
+    {
+        "topicUrl": "https://github.com/topics/mvvmcross",
+        "projects": [
+            {
+                "projectUrl": "https://github.com/MvvmCross/MvvmCross",
+                "issues": [
+                    {
+                        "heading": "Click in Method Binding isn't working ",
+                        "url": "https://github.com/MvvmCross/MvvmCross/issues/4130"
+                    },
+                    {
+                        "heading": "Master details page keep resetting the navigation when the orientation changes",
+                        "url": "https://github.com/MvvmCross/MvvmCross/issues/4129"
+                    },
+                    {
+                        "heading": "Mvx.IoCProvider.Resolve can't resolve type when internet is on",
+                        "url": "https://github.com/MvvmCross/MvvmCross/issues/4124"
+                    },
+                    {
+                        "heading": "Android - PopBackStackImmediateName doesn't appear to be properly used in the BackStack",
+                        "url": "https://github.com/MvvmCross/MvvmCross/issues/4107"
+                    },
+                    {
+                        "heading": "PreferenceFragment target bindings missing after migration to AndroidX",
+                        "url": "https://github.com/MvvmCross/MvvmCross/issues/4094"
+                    },
+                    {
+                        "heading": "MvxTableViewSource cant load data",
+                        "url": "https://github.com/MvvmCross/MvvmCross/issues/4083"
+                    },
+                    {
+                        "heading": "Website Branding Page is Blank",
+                        "url": "https://github.com/MvvmCross/MvvmCross/issues/4056"
+                    },
+                    {
+                        "heading": "🧾 Improve documentation",
+                        "url": "https://github.com/MvvmCross/MvvmCross/issues/4051"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/MvvmCross/MvvmCross-Samples",
+                "issues": [
+                    {
+                        "heading": "StarWarsSample app freeze when Exception is thrown in MainPage constructor",
+                        "url": "https://github.com/MvvmCross/MvvmCross-Samples/issues/151"
+                    },
+                    {
+                        "heading": "please add example for canExecute",
+                        "url": "https://github.com/MvvmCross/MvvmCross-Samples/issues/150"
+                    },
+                    {
+                        "heading": "XPlatformMenus update to 6.x",
+                        "url": "https://github.com/MvvmCross/MvvmCross-Samples/issues/146"
+                    },
+                    {
+                        "heading": "Fragment Re-creates every time.",
+                        "url": "https://github.com/MvvmCross/MvvmCross-Samples/issues/145"
+                    },
+                    {
+                        "heading": "Either remove or update out of date samples",
+                        "url": "https://github.com/MvvmCross/MvvmCross-Samples/issues/122"
+                    },
+                    {
+                        "heading": "Cannot Run FirstDemo Solution",
+                        "url": "https://github.com/MvvmCross/MvvmCross-Samples/issues/121"
+                    },
+                    {
+                        "heading": "MvxPanelPopToRootPresentationHint is removed in latest version",
+                        "url": "https://github.com/MvvmCross/MvvmCross-Samples/issues/110"
+                    },
+                    {
+                        "heading": "MvvmCross Viewpager with fragments",
+                        "url": "https://github.com/MvvmCross/MvvmCross-Samples/issues/108"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/MvvmCross/NPlus1DaysOfMvvmCross",
+                "issues": [
+                    {
+                        "heading": "Applications crash when adding MVVMCross - HotTuna Droid Fragment .",
+                        "url": "https://github.com/MvvmCross/NPlus1DaysOfMvvmCross/issues/7"
+                    },
+                    {
+                        "heading": "Update N=27 Ninja sample",
+                        "url": "https://github.com/MvvmCross/NPlus1DaysOfMvvmCross/issues/5"
+                    },
+                    {
+                        "heading": "Consider dropping the nuget dll's (use restore instead)",
+                        "url": "https://github.com/MvvmCross/NPlus1DaysOfMvvmCross/issues/4"
+                    },
+                    {
+                        "heading": "Remove Z-MacOnly",
+                        "url": "https://github.com/MvvmCross/NPlus1DaysOfMvvmCross/issues/3"
+                    },
+                    {
+                        "heading": "Retest CollectionView requirement to check isInitialized",
+                        "url": "https://github.com/MvvmCross/NPlus1DaysOfMvvmCross/issues/1"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/Baseflow/Chameleon",
+                "issues": [
+                    {
+                        "heading": "Duplicate OnCreate on startup when theme is selected",
+                        "url": "https://github.com/Baseflow/Chameleon/issues/103"
+                    },
+                    {
+                        "heading": "Google Cast?",
+                        "url": "https://github.com/Baseflow/Chameleon/issues/102"
+                    },
+                    {
+                        "heading": "OnResume => HandleIntent() goes to a blank page",
+                        "url": "https://github.com/Baseflow/Chameleon/issues/96"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/Plac3hold3r/MvxScaffolding",
+                "issues": [
+                    {
+                        "heading": "Failed create Xamarin Forms project",
+                        "url": "https://github.com/Plac3hold3r/MvxScaffolding/issues/906"
+                    },
+                    {
+                        "heading": "Failed create MvvmCross Native app",
+                        "url": "https://github.com/Plac3hold3r/MvxScaffolding/issues/905"
+                    },
+                    {
+                        "heading": "UWP Forms Test project does not build",
+                        "url": "https://github.com/Plac3hold3r/MvxScaffolding/issues/775"
+                    },
+                    {
+                        "heading": "Rider Support",
+                        "url": "https://github.com/Plac3hold3r/MvxScaffolding/issues/692"
+                    },
+                    {
+                        "heading": "Visual Studio for Mac Support",
+                        "url": "https://github.com/Plac3hold3r/MvxScaffolding/issues/691"
+                    },
+                    {
+                        "heading": "Missing WPF in Xamarin Forms.",
+                        "url": "https://github.com/Plac3hold3r/MvxScaffolding/issues/124"
+                    },
+                    {
+                        "heading": "[Feature Request] Tabs navigation",
+                        "url": "https://github.com/Plac3hold3r/MvxScaffolding/issues/93"
+                    },
+                    {
+                        "heading": "[Feature Request] Switch to use xUnit test framework and runners",
+                        "url": "https://github.com/Plac3hold3r/MvxScaffolding/issues/92"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/Cheesebaron/Cheesebaron.MvxPlugins",
+                "issues": [
+                    {
+                        "heading": "Update nuget package descriptions",
+                        "url": "https://github.com/Cheesebaron/Cheesebaron.MvxPlugins/issues/75"
+                    },
+                    {
+                        "heading": "Settings todo",
+                        "url": "https://github.com/Cheesebaron/Cheesebaron.MvxPlugins/issues/47"
+                    },
+                    {
+                        "heading": "xUnit tests",
+                        "url": "https://github.com/Cheesebaron/Cheesebaron.MvxPlugins/issues/39"
+                    },
+                    {
+                        "heading": "Change licenses?",
+                        "url": "https://github.com/Cheesebaron/Cheesebaron.MvxPlugins/issues/38"
+                    },
+                    {
+                        "heading": "Saving and restoring settings with different decimal points",
+                        "url": "https://github.com/Cheesebaron/Cheesebaron.MvxPlugins/issues/31"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/Nethereum/Nethereum.UI.Wallet.Sample",
+                "issues": [
+                    {
+                        "heading": "No option to send ETH / Token Transfer Requires Signing",
+                        "url": "https://github.com/Nethereum/Nethereum.UI.Wallet.Sample/issues/9"
+                    },
+                    {
+                        "heading": "Release mode of UWP error",
+                        "url": "https://github.com/Nethereum/Nethereum.UI.Wallet.Sample/issues/7"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/Baseflow/MvxForms",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "topicUrl": "https://github.com/topics/electron",
+        "projects": [
+            {
+                "projectUrl": "https://github.com/microsoft/vscode",
+                "issues": [
+                    {
+                        "heading": "Allow extensions to be easily hooked with error reporting service (Sentry or similar)",
+                        "url": "https://github.com/microsoft/vscode/issues/119266"
+                    },
+                    {
+                        "heading": "Ability to update extension packs through VSIXs",
+                        "url": "https://github.com/microsoft/vscode/issues/119265"
+                    },
+                    {
+                        "heading": "notebook multi-select background color issues on markdown cell",
+                        "url": "https://github.com/microsoft/vscode/issues/119264"
+                    },
+                    {
+                        "heading": "Help users use the search viewlet by providing a contextual reference",
+                        "url": "https://github.com/microsoft/vscode/issues/119263"
+                    },
+                    {
+                        "heading": "Builtin Markdown extension does not respect editor.wordWrap/editor.wordWrapColumn settings",
+                        "url": "https://github.com/microsoft/vscode/issues/119262"
+                    },
+                    {
+                        "heading": "Cannot search/filter by snippet description in the Command Palette/Insert Snippet",
+                        "url": "https://github.com/microsoft/vscode/issues/119261"
+                    },
+                    {
+                        "heading": "Lose Copy-Paste and Top and Bottom",
+                        "url": "https://github.com/microsoft/vscode/issues/119260"
+                    },
+                    {
+                        "heading": "Integrated github",
+                        "url": "https://github.com/microsoft/vscode/issues/119258"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/electron/electron",
+                "issues": [
+                    {
+                        "heading": "[Bug]:webContents.print() with custom margin hides header and footer content",
+                        "url": "https://github.com/electron/electron/issues/28270"
+                    },
+                    {
+                        "heading": "[Bug]: child_process execFile performance on macOS degraded",
+                        "url": "https://github.com/electron/electron/issues/28269"
+                    },
+                    {
+                        "heading": "[Bug]: webview with nodeintegration can not work",
+                        "url": "https://github.com/electron/electron/issues/28267"
+                    },
+                    {
+                        "heading": "[Bug]: setImmediate does not make a new task",
+                        "url": "https://github.com/electron/electron/issues/28261"
+                    },
+                    {
+                        "heading": "[Bug]: window.close from inside a page in a BrowserView will close the entire window",
+                        "url": "https://github.com/electron/electron/issues/28260"
+                    },
+                    {
+                        "heading": "[Bug]: webContents.print({silent:true}) doesn't respect the print setting from the default printer",
+                        "url": "https://github.com/electron/electron/issues/28256"
+                    },
+                    {
+                        "heading": "[Bug]: Window contents disappear when webcontents is focused after a navigation all while the machine is locked",
+                        "url": "https://github.com/electron/electron/issues/28255"
+                    },
+                    {
+                        "heading": "[Feature Request]: topFrame attribute for iframes loaded in the main window (make iframes behave more like tabs).",
+                        "url": "https://github.com/electron/electron/issues/28246"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/atom/atom",
+                "issues": [
+                    {
+                        "heading": "vg",
+                        "url": "https://github.com/atom/atom/issues/22043"
+                    },
+                    {
+                        "heading": "ff",
+                        "url": "https://github.com/atom/atom/issues/22042"
+                    },
+                    {
+                        "heading": "Escaped characters in Ruby regex throws off color syntax highlighter",
+                        "url": "https://github.com/atom/atom/issues/22041"
+                    },
+                    {
+                        "heading": "Recent files appear when right-clicking Atom application",
+                        "url": "https://github.com/atom/atom/issues/22040"
+                    },
+                    {
+                        "heading": "KeePassXC unlock dialog opens on Attom start.",
+                        "url": "https://github.com/atom/atom/issues/22039"
+                    },
+                    {
+                        "heading": "de",
+                        "url": "https://github.com/atom/atom/issues/22038"
+                    },
+                    {
+                        "heading": "rrr",
+                        "url": "https://github.com/atom/atom/issues/22037"
+                    },
+                    {
+                        "heading": "> > Just set up new MacBook Air with M1. Atom will not launch. Googling how to launch. Came across this thread.",
+                        "url": "https://github.com/atom/atom/issues/22036"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/GitSquared/edex-ui",
+                "issues": [
+                    {
+                        "heading": "listen EACCES: permission denied 0.0.0.0:3000",
+                        "url": "https://github.com/GitSquared/edex-ui/issues/1091"
+                    },
+                    {
+                        "heading": "Windows bug when I start eDEX-UI",
+                        "url": "https://github.com/GitSquared/edex-ui/issues/1087"
+                    },
+                    {
+                        "heading": "gyp info spawn args",
+                        "url": "https://github.com/GitSquared/edex-ui/issues/1086"
+                    },
+                    {
+                        "heading": "Progressive consumption of Memory/RAM",
+                        "url": "https://github.com/GitSquared/edex-ui/issues/1066"
+                    },
+                    {
+                        "heading": "Child process issue with v2.2.6 on Windows",
+                        "url": "https://github.com/GitSquared/edex-ui/issues/1057"
+                    },
+                    {
+                        "heading": "Win 10 WSL Ubuntu 18.04 Binary launch failure",
+                        "url": "https://github.com/GitSquared/edex-ui/issues/1055"
+                    },
+                    {
+                        "heading": "Fix CI pipeline for MacOS arm64 target",
+                        "url": "https://github.com/GitSquared/edex-ui/issues/1054"
+                    },
+                    {
+                        "heading": "Support proxies/regulated networks",
+                        "url": "https://github.com/GitSquared/edex-ui/issues/1050"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/nativefier/nativefier",
+                "issues": [
+                    {
+                        "heading": "i cannot import html files ",
+                        "url": "https://github.com/nativefier/nativefier/issues/1137"
+                    },
+                    {
+                        "heading": "Detect and automatically use armv7l/arm64 arch",
+                        "url": "https://github.com/nativefier/nativefier/issues/1135"
+                    },
+                    {
+                        "heading": "Add a `--upgrade` option that takes an existing app path, extracts options from `nativefier.json` and recreates the app",
+                        "url": "https://github.com/nativefier/nativefier/issues/1131"
+                    },
+                    {
+                        "heading": "[RFC] nativefier-catalog and interactivity",
+                        "url": "https://github.com/nativefier/nativefier/issues/1130"
+                    },
+                    {
+                        "heading": "Support mapping controller buttons to global shortcuts",
+                        "url": "https://github.com/nativefier/nativefier/issues/1119"
+                    },
+                    {
+                        "heading": "Globally installing Nativefier breaks Linux systems by changing sudo permissions",
+                        "url": "https://github.com/nativefier/nativefier/issues/1117"
+                    },
+                    {
+                        "heading": "Whatsapp Web reports it needs chrome 60+ even though I have chromium 86",
+                        "url": "https://github.com/nativefier/nativefier/issues/1112"
+                    },
+                    {
+                        "heading": "ARM64 Nativefier is broken for Omnifocus for Web",
+                        "url": "https://github.com/nativefier/nativefier/issues/1111"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/agalwood/Motrix",
+                "issues": [
+                    {
+                        "heading": "希望能在新版本添加Web UI功能",
+                        "url": "https://github.com/agalwood/Motrix/issues/883"
+                    },
+                    {
+                        "heading": "win7 x64中有内存泄漏+丢失任务",
+                        "url": "https://github.com/agalwood/Motrix/issues/882"
+                    },
+                    {
+                        "heading": "Update electron to 12 to support Wayland",
+                        "url": "https://github.com/agalwood/Motrix/issues/881"
+                    },
+                    {
+                        "heading": "Motrix 启动后崩溃",
+                        "url": "https://github.com/agalwood/Motrix/issues/880"
+                    },
+                    {
+                        "heading": "mac 不能下载到外置硬盘 提示 #17",
+                        "url": "https://github.com/agalwood/Motrix/issues/878"
+                    },
+                    {
+                        "heading": "Allow binding to network interface",
+                        "url": "https://github.com/agalwood/Motrix/issues/874"
+                    },
+                    {
+                        "heading": "使用发现的两个 Bug",
+                        "url": "https://github.com/agalwood/Motrix/issues/873"
+                    },
+                    {
+                        "heading": "使用ipv6下载失败",
+                        "url": "https://github.com/agalwood/Motrix/issues/872"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/nylas/nylas-mail",
+                "issues": [
+                    {
+                        "heading": "My first",
+                        "url": "https://github.com/nylas/nylas-mail/issues/3678"
+                    },
+                    {
+                        "heading": "Stop spamming, read the regulations of GDPR [AGAIN]",
+                        "url": "https://github.com/nylas/nylas-mail/issues/3677"
+                    },
+                    {
+                        "heading": "increase the language plz",
+                        "url": "https://github.com/nylas/nylas-mail/issues/3667"
+                    },
+                    {
+                        "heading": "Build Nylas Mail from Source.",
+                        "url": "https://github.com/nylas/nylas-mail/issues/3665"
+                    },
+                    {
+                        "heading": "Tray Icon doesn't work in ubuntu 18.04",
+                        "url": "https://github.com/nylas/nylas-mail/issues/3664"
+                    },
+                    {
+                        "heading": "Logo for Your Project",
+                        "url": "https://github.com/nylas/nylas-mail/issues/3663"
+                    },
+                    {
+                        "heading": "Warning: Possible EventEmitter memory leak detected. 51 BUG",
+                        "url": "https://github.com/nylas/nylas-mail/issues/3662"
+                    },
+                    {
+                        "heading": "After zooming to 1.5 times, input method candidate window can not be positioned accurately.",
+                        "url": "https://github.com/nylas/nylas-mail/issues/3661"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/typeorm/typeorm",
+                "issues": [
+                    {
+                        "heading": "leftJoinAndSelect nested property returns null if all fields except primary key are null",
+                        "url": "https://github.com/typeorm/typeorm/issues/7476"
+                    },
+                    {
+                        "heading": "syncronize:true throws QueryFailedError: column \"user_alias\" of relation \"users\" contains null values",
+                        "url": "https://github.com/typeorm/typeorm/issues/7475"
+                    },
+                    {
+                        "heading": "Scan migration directory only if migrationRun = true.",
+                        "url": "https://github.com/typeorm/typeorm/issues/7474"
+                    },
+                    {
+                        "heading": "Row Level Security -- setting configuration parameters (ie session variables) in findOptions, and using .*?QueryBuilder",
+                        "url": "https://github.com/typeorm/typeorm/issues/7472"
+                    },
+                    {
+                        "heading": "Inserted record in MySQL not being returned when using a custom primary key column",
+                        "url": "https://github.com/typeorm/typeorm/issues/7470"
+                    },
+                    {
+                        "heading": "On create not use default value",
+                        "url": "https://github.com/typeorm/typeorm/issues/7469"
+                    },
+                    {
+                        "heading": "printSql doesn't work",
+                        "url": "https://github.com/typeorm/typeorm/issues/7468"
+                    },
+                    {
+                        "heading": "can we call oracle pl/sql stored procedure in typeorm",
+                        "url": "https://github.com/typeorm/typeorm/issues/7466"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topicUrl": "https://github.com/topics/graphql",
+        "projects": [
+            {
+                "projectUrl": "https://github.com/gatsbyjs/gatsby",
+                "issues": [
+                    {
+                        "heading": "Theme shadowing in monorepo not working after upgrade to Gatsby 3",
+                        "url": "https://github.com/gatsbyjs/gatsby/issues/30335"
+                    },
+                    {
+                        "heading": "Module build failed (from ./node_modules/postcss-loader/dist/cjs.js) after upgrading to version 3.1.0",
+                        "url": "https://github.com/gatsbyjs/gatsby/issues/30317"
+                    },
+                    {
+                        "heading": "[gatsby-remark-images] Upgrading gatsby-remark-images from 4.0.0 to 4.1.0 locks up `source and transform nodes` step with `lessBabel` option set",
+                        "url": "https://github.com/gatsbyjs/gatsby/issues/30295"
+                    },
+                    {
+                        "heading": "Gatsby V3 - ERROR #98123 WEBPACK",
+                        "url": "https://github.com/gatsbyjs/gatsby/issues/30288"
+                    },
+                    {
+                        "heading": "Using GATSBY_EMPTY_ALT ignored for figcaption-generation by gatsby-remark-image ie creates non-sense figcaption",
+                        "url": "https://github.com/gatsbyjs/gatsby/issues/30285"
+                    },
+                    {
+                        "heading": "allWpMenu query runs fine on WP GraphiQL but results in TypeInfo error locally",
+                        "url": "https://github.com/gatsbyjs/gatsby/issues/30280"
+                    },
+                    {
+                        "heading": "[gatsby-plugin-image] Image requested and downloaded multiple times ",
+                        "url": "https://github.com/gatsbyjs/gatsby/issues/30272"
+                    },
+                    {
+                        "heading": "Issue: warning Query takes too long + Build breaks on netlify",
+                        "url": "https://github.com/gatsbyjs/gatsby/issues/30256"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/prettier/prettier",
+                "issues": [
+                    {
+                        "heading": "`getSupportInfo()` does not return file extensions for custom registered languages",
+                        "url": "https://github.com/prettier/prettier/issues/10561"
+                    },
+                    {
+                        "heading": "Release 2.3 checklist",
+                        "url": "https://github.com/prettier/prettier/issues/10537"
+                    },
+                    {
+                        "heading": "YAML: a comment after an anchor doesn't stay on a separate line",
+                        "url": "https://github.com/prettier/prettier/issues/10518"
+                    },
+                    {
+                        "heading": "parse error on mdx code block in markdown",
+                        "url": "https://github.com/prettier/prettier/issues/10507"
+                    },
+                    {
+                        "heading": "[CSS] Bad formatting of a long list of arguments",
+                        "url": "https://github.com/prettier/prettier/issues/10486"
+                    },
+                    {
+                        "heading": "idea: more exit codes.",
+                        "url": "https://github.com/prettier/prettier/issues/10467"
+                    },
+                    {
+                        "heading": "Glimmer: Double quotes removed even if single quotes inside",
+                        "url": "https://github.com/prettier/prettier/issues/10419"
+                    },
+                    {
+                        "heading": "Missing parens in `yield` pipeline expression",
+                        "url": "https://github.com/prettier/prettier/issues/10413"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/strapi/strapi",
+                "issues": [
+                    {
+                        "heading": "Qovery Deploy is only opening index page",
+                        "url": "https://github.com/strapi/strapi/issues/9764"
+                    },
+                    {
+                        "heading": "upload-aws-s3: Missing required key 'Bucket' in params",
+                        "url": "https://github.com/strapi/strapi/issues/9754"
+                    },
+                    {
+                        "heading": "_where is not working as expected",
+                        "url": "https://github.com/strapi/strapi/issues/9748"
+                    },
+                    {
+                        "heading": "bug: Updating User Information with uncommon email address domain",
+                        "url": "https://github.com/strapi/strapi/issues/9738"
+                    },
+                    {
+                        "heading": "Strapi query function does not use default limit config",
+                        "url": "https://github.com/strapi/strapi/issues/9736"
+                    },
+                    {
+                        "heading": "Let filtering on admin conditions with _in",
+                        "url": "https://github.com/strapi/strapi/issues/9727"
+                    },
+                    {
+                        "heading": "Timeout error while uploading large files over S3",
+                        "url": "https://github.com/strapi/strapi/issues/9722"
+                    },
+                    {
+                        "heading": "Error Strapi 3.5.2 to Mongo Atlas - Node 14.16.0",
+                        "url": "https://github.com/strapi/strapi/issues/9721"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/hoppscotch/hoppscotch",
+                "issues": [
+                    {
+                        "heading": "Cookie missing in response",
+                        "url": "https://github.com/hoppscotch/hoppscotch/issues/1546"
+                    },
+                    {
+                        "heading": "Refactoring Suggestion - Codegen generators",
+                        "url": "https://github.com/hoppscotch/hoppscotch/issues/1544"
+                    },
+                    {
+                        "heading": "Improve save request flow",
+                        "url": "https://github.com/hoppscotch/hoppscotch/issues/1525"
+                    },
+                    {
+                        "heading": "Apply syntax highlighting on generated code",
+                        "url": "https://github.com/hoppscotch/hoppscotch/issues/1507"
+                    },
+                    {
+                        "heading": "Address bar URL params do not update as expected",
+                        "url": "https://github.com/hoppscotch/hoppscotch/issues/1497"
+                    },
+                    {
+                        "heading": "Provide a visual editor for JSON/KV request bodies",
+                        "url": "https://github.com/hoppscotch/hoppscotch/issues/1435"
+                    },
+                    {
+                        "heading": "Support for Cookies",
+                        "url": "https://github.com/hoppscotch/hoppscotch/issues/1383"
+                    },
+                    {
+                        "heading": "Better error message for first-time-users: No 'Access-Control-Allow-Origin' header is present ",
+                        "url": "https://github.com/hoppscotch/hoppscotch/issues/1376"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/hasura/graphql-engine",
+                "issues": [
+                    {
+                        "heading": "hasura-cli: Segmentation fault",
+                        "url": "https://github.com/hasura/graphql-engine/issues/6678"
+                    },
+                    {
+                        "heading": "viewing related rows breaks for tables with json column and no pkey",
+                        "url": "https://github.com/hasura/graphql-engine/issues/6677"
+                    },
+                    {
+                        "heading": "No longer able retrieve my tenant id via the hasura cloud api",
+                        "url": "https://github.com/hasura/graphql-engine/issues/6676"
+                    },
+                    {
+                        "heading": "hasura-cli: metadata apply ends with no change to the schema",
+                        "url": "https://github.com/hasura/graphql-engine/issues/6675"
+                    },
+                    {
+                        "heading": "Creating custom relationship: TypeError: Cannot read property 'column_mapping' of undefined",
+                        "url": "https://github.com/hasura/graphql-engine/issues/6674"
+                    },
+                    {
+                        "heading": "Inherited roles doesn't work with null role",
+                        "url": "https://github.com/hasura/graphql-engine/issues/6672"
+                    },
+                    {
+                        "heading": "Inherited roles should use maximum row limit",
+                        "url": "https://github.com/hasura/graphql-engine/issues/6671"
+                    },
+                    {
+                        "heading": "Postgresql SCRAM Authentication",
+                        "url": "https://github.com/hasura/graphql-engine/issues/6670"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/kriasoft/react-starter-kit",
+                "issues": [
+                    {
+                        "heading": "Unable to add Google Analytics Tracking",
+                        "url": "https://github.com/kriasoft/react-starter-kit/issues/1925"
+                    },
+                    {
+                        "heading": "You are missing the split code",
+                        "url": "https://github.com/kriasoft/react-starter-kit/issues/1924"
+                    },
+                    {
+                        "heading": "Unable to Load Images in React",
+                        "url": "https://github.com/kriasoft/react-starter-kit/issues/1920"
+                    },
+                    {
+                        "heading": "Question on routing",
+                        "url": "https://github.com/kriasoft/react-starter-kit/issues/1919"
+                    },
+                    {
+                        "heading": "React",
+                        "url": "https://github.com/kriasoft/react-starter-kit/issues/1917"
+                    },
+                    {
+                        "heading": "Unable to resolve path to module 'buefy'",
+                        "url": "https://github.com/kriasoft/react-starter-kit/issues/1916"
+                    },
+                    {
+                        "heading": "Forcing a component to re-render",
+                        "url": "https://github.com/kriasoft/react-starter-kit/issues/1915"
+                    },
+                    {
+                        "heading": "Embedding a component in an existing web application",
+                        "url": "https://github.com/kriasoft/react-starter-kit/issues/1914"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/tannerlinsley/react-query",
+                "issues": [
+                    {
+                        "heading": "ReactQuery + Next.js: preloaded data is being ignored",
+                        "url": "https://github.com/tannerlinsley/react-query/issues/1978"
+                    },
+                    {
+                        "heading": "refetch does not respect enabled false",
+                        "url": "https://github.com/tannerlinsley/react-query/issues/1965"
+                    },
+                    {
+                        "heading": "prefetchQuery should be generic",
+                        "url": "https://github.com/tannerlinsley/react-query/issues/1956"
+                    },
+                    {
+                        "heading": "Persisted cache is not immediately cleared by `resetQueries`",
+                        "url": "https://github.com/tannerlinsley/react-query/issues/1951"
+                    },
+                    {
+                        "heading": "useInfiniteQuery does not keep previous data on new fetching",
+                        "url": "https://github.com/tannerlinsley/react-query/issues/1945"
+                    },
+                    {
+                        "heading": "ReactQueryDevtools warning in console: \"Warning: a promise was created in a handler at webpack-internal:///./node_modules/react-dom/cjs/react-dom.development.js:15660:5 but was not returned from it\"",
+                        "url": "https://github.com/tannerlinsley/react-query/issues/1944"
+                    },
+                    {
+                        "heading": "\"No QueryClient set\" when upgrading from 3.12.0 to 3.12.1",
+                        "url": "https://github.com/tannerlinsley/react-query/issues/1936"
+                    },
+                    {
+                        "heading": "About Infinite Queries and useInfiniteQuery hook",
+                        "url": "https://github.com/tannerlinsley/react-query/issues/1930"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/parse-community/parse-server",
+                "issues": [
+                    {
+                        "heading": "Allow logout with invalid session",
+                        "url": "https://github.com/parse-community/parse-server/issues/7277"
+                    },
+                    {
+                        "heading": "Introduce fixed release cycles",
+                        "url": "https://github.com/parse-community/parse-server/issues/7271"
+                    },
+                    {
+                        "heading": "Updating a Roles User doesn't fire LQ.",
+                        "url": "https://github.com/parse-community/parse-server/issues/7270"
+                    },
+                    {
+                        "heading": "object.relation(..) throws \"Invalid key '...'\" when beforeFind() trigger change the query",
+                        "url": "https://github.com/parse-community/parse-server/issues/7269"
+                    },
+                    {
+                        "heading": "While using afterFind hook, including self does not work.",
+                        "url": "https://github.com/parse-community/parse-server/issues/7268"
+                    },
+                    {
+                        "heading": "Add no-empty to lint rules",
+                        "url": "https://github.com/parse-community/parse-server/issues/7260"
+                    },
+                    {
+                        "heading": "insert items into array using graphql",
+                        "url": "https://github.com/parse-community/parse-server/issues/7256"
+                    },
+                    {
+                        "heading": "Sessiontoken renewal",
+                        "url": "https://github.com/parse-community/parse-server/issues/7248"
+                    }
+                ]
+            }
+        ]
+    }
+]
